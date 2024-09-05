@@ -8,4 +8,3 @@ public class StockExportRequest
     [JsonPropertyName("store_id")]public Guid StoreId { get; set; }
     [JsonPropertyName("quantity_for_export")]public int Quantity { get; set; }
 }
-

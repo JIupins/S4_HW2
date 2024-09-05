@@ -10,4 +10,3 @@ public class ProductUpdateNameRequest
     [JsonPropertyName("name")]
     public required string Name { get; set; }
 }
-

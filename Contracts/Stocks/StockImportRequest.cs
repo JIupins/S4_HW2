@@ -8,4 +8,3 @@ public class StockImportRequest
     [JsonPropertyName("store_id")] public Guid StoreId { get; set; }
     [JsonPropertyName("quantity_for_import")] public int Quantity { get; set; }
 }
-

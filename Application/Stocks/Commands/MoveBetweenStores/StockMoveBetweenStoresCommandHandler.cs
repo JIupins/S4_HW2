@@ -89,6 +89,5 @@ public sealed class StockMoveBetweenStoresCommandHandler : ICommandHandler<Stock
         await _context.SaveChangesAsync(cancellationToken);
 
         return new List<StockResultResponse> { _mapper.Map<StockResultResponse>(senderStock)!, _mapper.Map<StockResultResponse>(targetStock)! };
-
     }
 }

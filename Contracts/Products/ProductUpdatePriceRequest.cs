@@ -10,4 +10,3 @@ public class ProductUpdatePriceRequest
     [JsonPropertyName("price")]
     public decimal Price { get; set; }
 }
-

@@ -192,7 +192,6 @@ public class ProductController : BaseController
         }
         var product = _mapper.Map<ProductResponse>(result.Value!);
 
-
         return Ok(product);
     }
 
@@ -210,6 +209,4 @@ public class ProductController : BaseController
 
         return Ok(product);
     }
-
-
 }

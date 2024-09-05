@@ -8,5 +8,3 @@ public class StockResponse
     [JsonPropertyName("store_id")] public Guid StoreId { get; set; }
     [JsonPropertyName("quantity_int_stock")] public int Quantity { get; set; }
 }
-
-

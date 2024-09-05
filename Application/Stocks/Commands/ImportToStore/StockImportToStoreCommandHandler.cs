@@ -53,6 +53,5 @@ public sealed class StockImportToStoreCommandHandler : ICommandHandler<StockImpo
         await _context.SaveChangesAsync(cancellationToken);
 
         return _mapper.Map<StockResultResponse>(stock)!;
-
     }
 }

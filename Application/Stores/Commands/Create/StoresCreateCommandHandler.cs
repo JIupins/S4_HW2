@@ -43,5 +43,3 @@ public sealed class StoresCreateCommandHandler : ICommandHandler<StoresCreateCom
 
     }
 }
-
-

@@ -6,5 +6,3 @@ using Application.Stores.Responses;
 namespace Application.Stores.Commands.Create;
 
 public sealed record StoresCreateCommand(string IdentityNumber) : ICommand<Result<StoreResultResponse, Error>>;
-
-

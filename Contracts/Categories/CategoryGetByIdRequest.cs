@@ -7,5 +7,3 @@ public record CategoryGetByIdRequest
     [JsonPropertyName("category_id")]
     public Guid Id { get; set; }
 }
-
-

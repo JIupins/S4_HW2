@@ -9,4 +9,3 @@ public class CategoryResponse
     [JsonPropertyName("name")]
     public required string Name { get; set; }
 }
-

@@ -91,4 +91,3 @@ public class StockController : BaseController
         return Ok(result.Value!.Select(_mapper.Map<StockResponse>));
     }
 }
-

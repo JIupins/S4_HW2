@@ -19,5 +19,3 @@ public class ProductResponse
     [JsonPropertyName("category_id")] 
     public Guid? CategoryId { get; set; }
 }
-
-
